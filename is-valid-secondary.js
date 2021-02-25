@@ -1,7 +1,13 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-
+function isValidSecondary(color) {
+  if (color === "orange" || color === "purple" || color === "green") {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 
 
